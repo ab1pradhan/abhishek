@@ -1,0 +1,57 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 50px;
+  }
+  
+  /* Style for video thumbnails */
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  
+  /* Style for project images */
+  .project {
+    text-align: center;
+  }
+  
+  .project img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  
